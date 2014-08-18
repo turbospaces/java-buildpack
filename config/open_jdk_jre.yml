@@ -17,11 +17,11 @@
 # From Java 1.8 onwards, metaspace should be used instead of permgen.  Please see the documentation for more detail.
 ---
 repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
-version: 1.7.0_+
+version: 1.8.0_+
 memory_sizes:
-  permgen: 128m..
+  metaspace: 128m..
 memory_heuristics:
   heap: 50
-  permgen: 35
+  metaspace: 35
   stack: 5
   native: 10
