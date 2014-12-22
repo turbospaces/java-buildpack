@@ -28,6 +28,6 @@ memory_sizes:
   stack: 512K..2m
 memory_heuristics:
   heap: 50
-  metaspace: 20
+  permgen: 20
   stack: 1
   native: 29
